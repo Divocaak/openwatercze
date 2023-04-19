@@ -6,7 +6,8 @@
 </script>
 
 <svelte:head>
-	<!-- TODO -->
+	<!-- TODO sladit s nadpisem -->
+	<!-- TODO favicon -->
 	<title />
 </svelte:head>
 
