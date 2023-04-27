@@ -19,28 +19,12 @@
 <slot />
 
 <style lang="scss">
-	/* @font-face {
-		font-family: 'NeueMachina';
-		src: url('/neueMachina/NeueMachina-Regular.otf');
-	}
-
-	@font-face {
-		font-family: 'NeueMachina';
-		src: url('/neueMachina/NeueMachina-Ultrabold.otf');
-		font-weight: bold;
-	} */
-
 	:global(html) {
 		scroll-behavior: smooth;
 		overflow-x: hidden;
 	}
 
-	/* :global(.neue) {
-		font-family: 'NeueMachina';
+	:global(h1, h2, h3, h4, h5, h6, p, a, .btn) {
+		font-family: 'Ubuntu', sans-serif;
 	}
-
-	:global(.neue-bold) {
-		font-family: 'NeueMachina';
-		font-weight: bold;
-	} */
 </style>

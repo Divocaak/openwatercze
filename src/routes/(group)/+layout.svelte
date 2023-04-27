@@ -6,7 +6,7 @@
 <div class="content bg-light">
 	<div class="row">
 		<div class="col-12 text-center">
-			<h1 class="display-1">"OpenWater cze" je jméno?</h1>
+			<img src="/favicon.png" alt="Openwater Czech Republic logo" />
 		</div>
 		<div class="col-12 d-md-none p-5">
 			<Menu />
@@ -25,11 +25,20 @@
 		0% {
 			background-image: url('/images/0.jpg');
 		}
-		33% {
+		18% {
 			background-image: url('/images/1.jpg');
 		}
-		66% {
+		34% {
 			background-image: url('/images/2.jpg');
+		}
+		50% {
+			background-image: url('/images/3.jpg');
+		}
+		66% {
+			background-image: url('/images/4.jpg');
+		}
+		82% {
+			background-image: url('/images/5.jpg');
 		}
 	}
 
@@ -41,7 +50,7 @@
 		position: fixed;
 		height: 100vh;
 		width: 100vw;
-		animation: backgroundChange 10s ease-in-out 0s infinite normal none;
+		animation: backgroundChange 30s ease-in-out 0s infinite normal none;
 	}
 
 	.content {
