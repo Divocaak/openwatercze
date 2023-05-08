@@ -18,7 +18,6 @@
 		<a href="/" class="btn btn-close" />
 	</div>
 	<div class="mx-5 text-center">
-		<!-- TODO back arrow -->
 		<h1 class="display-1">{article.label}</h1>
 		{#if article.article_type != null}
 			<h3 class="pt-2">{article.article_type}</h3>
