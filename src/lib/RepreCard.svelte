@@ -6,7 +6,7 @@
 		instagram = null;
 </script>
 
-<div class="col-4">
+<div class="col-6 col-md-4">
 	<div class="card mb-3 shadow-lg">
 		<img src="/repre/{imgName}.jpg" class="card-img-top" alt={name} />
 		<div class="card-body">

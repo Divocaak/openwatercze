@@ -4,9 +4,9 @@
 
 <div class="bg-img" />
 <div class="content bg-light">
-	<div class="row">
+	<div class="row m-0">
 		<div class="col-12 text-center">
-			<img src="/favicon.png" alt="Openwater Czech Republic logo" />
+			<img src="/favicon.png" alt="Openwater Czech Republic logo" class="img-fluid"/>
 		</div>
 		<div class="col-12 d-md-none p-5">
 			<Menu />
