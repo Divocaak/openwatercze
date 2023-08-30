@@ -11,8 +11,8 @@
 	</title>
 </svelte:head>
 
-<div class="bg-img" style="background-image: url('/thumbnails/{article.id}.jpg');" />
-<div class="content bg-light pt-5">
+<div class="bg-img" style="background-image: url('./dynamic/thumbnails/{article.id}.jpg');" />
+<div class="content bg-light py-5">
 	<div class="back-arrow">
 		<!-- svelte-ignore a11y-missing-content -->
 		<a href="/" class="btn btn-close" />
@@ -24,13 +24,13 @@
 		{/if}
 		<DateText date={article.created} />
 		{#if article.short_desc != null}
-			<p class="pt-5">
+			<p class="pt-5 text-muted">
 				{article.short_desc}
 			</p>
 		{/if}
 		{#if article.long_text != null}
 			<p class="pt-3">
-				{article.long_text}
+				{@html article.long_text}
 			</p>
 		{/if}
 	</div>
