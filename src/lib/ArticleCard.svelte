@@ -5,10 +5,9 @@
 </script>
 
 <div class="card mb-3 shadow">
-	<!-- // NOTE static/thumbnails musí být na serveru -->
 	<img
-		src="/thumbnails/{article.id}.jpg"
-		class="card-img-top card-sizer"
+		src="./dynamic/thumbnails/{article.id}.jpg"
+		class="card-sizer"
 		alt="{article.label} (nelze načíst obrázek, id: {article.id})"
 	/>
 	<div class="card-body">
@@ -29,6 +28,9 @@
 <style>
 	.card-sizer {
 		position: relative;
-		max-height: 50vh;
+		width: 100%;
+		height: 30rem;
+		display: block;
+		object-fit: cover;
 	}
 </style>
